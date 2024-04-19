@@ -1,0 +1,13 @@
+/home/magnus/Desktop/rust-modifiers/mx-vm-executor-rs-master/target/debug/deps/libtarget_lexicon-a639e904ecaebb24.rmeta: /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/lib.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/data_model.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/host.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/parse_error.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/targets.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/triple.rs /home/magnus/Desktop/rust-modifiers/mx-vm-executor-rs-master/target/debug/build/target-lexicon-a88b671b4f19e5ad/out/host.rs
+
+/home/magnus/Desktop/rust-modifiers/mx-vm-executor-rs-master/target/debug/deps/target_lexicon-a639e904ecaebb24.d: /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/lib.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/data_model.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/host.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/parse_error.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/targets.rs /home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/triple.rs /home/magnus/Desktop/rust-modifiers/mx-vm-executor-rs-master/target/debug/build/target-lexicon-a88b671b4f19e5ad/out/host.rs
+
+/home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/lib.rs:
+/home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/data_model.rs:
+/home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/host.rs:
+/home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/parse_error.rs:
+/home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/targets.rs:
+/home/magnus/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.14/src/triple.rs:
+/home/magnus/Desktop/rust-modifiers/mx-vm-executor-rs-master/target/debug/build/target-lexicon-a88b671b4f19e5ad/out/host.rs:
+
+# env-dep:OUT_DIR=/home/magnus/Desktop/rust-modifiers/mx-vm-executor-rs-master/target/debug/build/target-lexicon-a88b671b4f19e5ad/out
