@@ -50,14 +50,14 @@ pub const ADDER_WAT: &str = r#"
     (import "env" "checkNoPayment" (func $checkNoPayment (type 4)))
     (import "env" "bigIntAdd" (func $bigIntAdd (type 5)))
     (import "env" "bigIntFinishUnsigned" (func $bigIntFinishUnsigned (type 6)))
-    (func $_ZN11elrond_wasm2io16arg_nested_tuple15load_single_arg17hc323659743ed9ee4E (type 1) (result i32)
+    (func $_ZN11brave_wasm2io16arg_nested_tuple15load_single_arg17hc323659743ed9ee4E (type 1) (result i32)
       (local i32)
       i32.const 0
-      call $_ZN16elrond_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
+      call $_ZN16brave_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
       local.tee 0
       call $bigIntGetUnsignedArgument
       local.get 0)
-    (func $_ZN16elrond_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E (type 1) (result i32)
+    (func $_ZN16brave_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E (type 1) (result i32)
       (local i32)
       i32.const 0
       i32.const 0
@@ -67,7 +67,7 @@ pub const ADDER_WAT: &str = r#"
       local.tee 0
       i32.store offset=1048604
       local.get 0)
-    (func $_ZN11elrond_wasm2io16arg_nested_tuple22check_num_arguments_eq17h848f7f930a70d303E (type 6) (param i32)
+    (func $_ZN11brave_wasm2io16arg_nested_tuple22check_num_arguments_eq17h848f7f930a70d303E (type 6) (param i32)
       block  ;; label = @1
         call $getNumArguments
         local.get 0
@@ -79,22 +79,22 @@ pub const ADDER_WAT: &str = r#"
       i32.const 25
       call $signalError
       unreachable)
-    (func $_ZN11elrond_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3get17h25bb7558615ec585E (type 7) (param i32) (result i32)
+    (func $_ZN11brave_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3get17h25bb7558615ec585E (type 7) (param i32) (result i32)
       (local i32)
       local.get 0
-      call $_ZN16elrond_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
+      call $_ZN16brave_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
       local.tee 1
       call $mBufferStorageLoad
       drop
       local.get 1
-      call $_ZN16elrond_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
+      call $_ZN16brave_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
       local.tee 0
       call $mBufferToBigIntUnsigned
       drop
       local.get 0)
-    (func $_ZN11elrond_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3set17h646573d1e8aedfb8E (type 0) (param i32 i32)
+    (func $_ZN11brave_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3set17h646573d1e8aedfb8E (type 0) (param i32 i32)
       (local i32)
-      call $_ZN16elrond_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
+      call $_ZN16brave_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
       local.tee 2
       local.get 1
       call $mBufferFromBigIntUnsigned
@@ -105,7 +105,7 @@ pub const ADDER_WAT: &str = r#"
       drop)
     (func $_ZN34_$LT$C$u20$as$u20$adder..Adder$GT$3sum17h4be7469c9e0e8813E (type 1) (result i32)
       (local i32)
-      call $_ZN16elrond_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
+      call $_ZN16brave_wasm_node3api13managed_types19static_var_api_node11next_handle17hdafd854c2ac6d869E
       local.tee 0
       i32.const 1048601
       i32.const 3
@@ -116,35 +116,35 @@ pub const ADDER_WAT: &str = r#"
       (local i32)
       call $checkNoPayment
       i32.const 1
-      call $_ZN11elrond_wasm2io16arg_nested_tuple22check_num_arguments_eq17h848f7f930a70d303E
-      call $_ZN11elrond_wasm2io16arg_nested_tuple15load_single_arg17hc323659743ed9ee4E
+      call $_ZN11brave_wasm2io16arg_nested_tuple22check_num_arguments_eq17h848f7f930a70d303E
+      call $_ZN11brave_wasm2io16arg_nested_tuple15load_single_arg17hc323659743ed9ee4E
       local.set 0
       call $_ZN34_$LT$C$u20$as$u20$adder..Adder$GT$3sum17h4be7469c9e0e8813E
       local.get 0
-      call $_ZN11elrond_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3set17h646573d1e8aedfb8E)
+      call $_ZN11brave_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3set17h646573d1e8aedfb8E)
     (func $add (type 4)
       (local i32 i32 i32)
       call $checkNoPayment
       i32.const 1
-      call $_ZN11elrond_wasm2io16arg_nested_tuple22check_num_arguments_eq17h848f7f930a70d303E
-      call $_ZN11elrond_wasm2io16arg_nested_tuple15load_single_arg17hc323659743ed9ee4E
+      call $_ZN11brave_wasm2io16arg_nested_tuple22check_num_arguments_eq17h848f7f930a70d303E
+      call $_ZN11brave_wasm2io16arg_nested_tuple15load_single_arg17hc323659743ed9ee4E
       local.set 0
       call $_ZN34_$LT$C$u20$as$u20$adder..Adder$GT$3sum17h4be7469c9e0e8813E
       local.tee 1
-      call $_ZN11elrond_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3get17h25bb7558615ec585E
+      call $_ZN11brave_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3get17h25bb7558615ec585E
       local.tee 2
       local.get 2
       local.get 0
       call $bigIntAdd
       local.get 1
       local.get 2
-      call $_ZN11elrond_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3set17h646573d1e8aedfb8E)
+      call $_ZN11brave_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3set17h646573d1e8aedfb8E)
     (func $getSum (type 4)
       call $checkNoPayment
       i32.const 0
-      call $_ZN11elrond_wasm2io16arg_nested_tuple22check_num_arguments_eq17h848f7f930a70d303E
+      call $_ZN11brave_wasm2io16arg_nested_tuple22check_num_arguments_eq17h848f7f930a70d303E
       call $_ZN34_$LT$C$u20$as$u20$adder..Adder$GT$3sum17h4be7469c9e0e8813E
-      call $_ZN11elrond_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3get17h25bb7558615ec585E
+      call $_ZN11brave_wasm7storage7mappers19single_value_mapper31SingleValueMapper$LT$SA$C$T$GT$3get17h25bb7558615ec585E
       call $bigIntFinishUnsigned)
     (func $callBack (type 4))
     (table (;0;) 1 1 funcref)

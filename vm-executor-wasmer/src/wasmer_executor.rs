@@ -1,6 +1,6 @@
 use crate::WasmerInstance;
 use log::trace;
-use multiversx_chain_vm_executor::{
+use dharitri_chain_vm_executor::{
     CompilationOptions, Executor, ExecutorError, Instance, OpcodeCost, ServiceError, VMHooks,
 };
 use std::cell::RefCell;
